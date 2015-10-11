@@ -1,0 +1,17 @@
+BACKUP ~tb#characters/backup~
+AUTHOR ~the bigg (thebigg@spellholdstudios.net)~
+
+VERSION ~1.10~
+README ~tb#characters/readme.html~
+
+BEGIN ~Alyx Vance (from Half Life 2 and Episodes)~
+OUTER_SPRINT soundName ~ALYX~
+INCLUDE ~tb#characters/core.tpa~
+
+BEGIN ~Jane Doe "The Soldier" (from Team Fortress 2)~
+OUTER_SPRINT soundName ~SOLDIER~
+INCLUDE ~tb#characters/core.tpa~
+
+BEGIN ~Heavy Weapons Guy (from Team Fortress 2)~
+OUTER_SPRINT soundName ~HEAVY~
+INCLUDE ~tb#characters/core.tpa~

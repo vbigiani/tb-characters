@@ -45,7 +45,7 @@ ACTION_BASH_FOR ~tb#characters/%soundName%/sounds~ ~^.+\.wav$~ BEGIN
   MOVE ~%BASH_FOR_FILESPEC%~ ~sounds~
 END
 
-LOAD_TRA ~tb#characters/%soundName%/%soundName%.tra~
+LOAD_TRA ~tb#characters/tra/%LANGUAGE%/%soundName%.tra~
 
 APPEND_COL "csound.2da" "$ $ %soundName% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
 COPY_EXISTING "csound.2da" "override/csound.2da"
