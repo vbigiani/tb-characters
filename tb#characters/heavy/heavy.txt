@@ -1,0 +1,40 @@
+This is the table of sound files used by the Heavy Weapons Guy sound set; it will hopefully be useful to somebody.
+
+in-BG2 file  Sound description                   in-GCF file name                   Transcription
+heavya.wav - Battle Cry                        - heavy_sandwichtaunt06            - Baloney! Perfect fuel for killing TINY COWARDS!
+heavyb.wav - Becoming Leader                   - heavy_domination02               - You are no match for me!
+heavyc.wav - Tired                             - heavy_sandwichtaunt10            - What was that Sandvich, "Kill them all"? Good idea!
+heavyd.wav - Bored                             - heavy_taunts09                   - I was told, we would be fighting MEN!
+heavye.wav - Badly Wounded                     - heavy_cheers03                   - So much blood!  
+heavyf.wav - Selected 1                        - heavy_revenge04                  - Never, NEVER make me angry.
+heavyg.wav - Selected 2                        - heavy_sandwichtaunt04            - I am full of Sandvich, and I am coming for you!
+heavyh.wav - Selected 3                        - heavy_taunts05                   - Keep crying, baby!
+heavyi.wav - Action Acknowledgement 1          - heavy_domination05               - Run home to mama!
+heavyj.wav - Action Acknowledgement 2          - heavy_laughlong01                - Ha ha ha ha!
+heavyk.wav - Action Acknowledgement 3          - heavy_specialcompleted05         - Now is coward-killing time!
+heavyl.wav - Being Hit                         - heavy_meleedare04                - Hit me, I dare you!
+heavym.wav - Dying                             - heavy_painsevere01               - Aaargh!
+heavyn.wav - In Forest                         - heavy_autocappedintelligence01   - It was long trip!
+heavyo.wav - In City                           - heavy_sandwichtaunt06            - Don't run, it's just HAM!
+heavyp.wav - In Dungeon                        - heavy_taunts13                   - I hear someone building diaper-changing station!
+heavyq.wav - Daytime                           - heavy_award03                    - It is good day to be giant man!
+heavyr.wav - Nighttime                         - heavy_domination11               - Oh-oh! I think someone soiled diaper!
+heavys.wav - Action Acknowledgement 4          - heavy_cheers07                   - Da da da daa...
+heavyt.wav - Action Acknowledgement 5          - heavy_generic01                  - Kiss me!
+heavyu.wav - Action Acknowledgement 6          - heavy_taunts08                   - You! Yes, you! You are dead!
+heavyv.wav - Action Acknowledgement 7          - heavy_no03                       - Is not possible!
+heavyw.wav - Reaction to Party Member Death    - heavy_jeers05                    - Ooh, it is sad day!
+heavyx.wav - Rare Select 1                     - heavy_cheers08                   - Do do do do doo.. Come sing with me!
+heavyy.wav - Rare Select 2                     - heavy_domination10               - Do I smell soiled baby diapers?
+heavyz.wav - Critical Hit Given                - heavy_specialcompleted01         - Yattatatata.... Kaboom!
+heavy1.wav - Critical Miss                     - heavy_jeers09                    - How could this happen?
+heavy2.wav - Target Immune                     - heavy_jeers07                    - Aah, too many little man on this team!
+heavy3.wav - Inventory Full                    - heavy_helpme02                   - Help now!
+heavy4.wav - Successfully Picked A Pocket      - heavy_autocappedintelligence02   - Not usually my job, but...
+heavy5.wav - Successfully Hid In shadows       - heavy_award01                    - Look at me! Look at me!
+heavy6.wav - Spell Disrupted                   - heavy_jeers03                    - Stupid, stupid, stupid!
+heavy7.wav - Set A Trap                        - heavy_domination16               - I am going to kill you, and kill you, and kill you!
+heavy8.wav - Battle Cry 2                      - heavy_domination08               - I have planned for you... more pain!
+heavy9.wav - Battle Cry 3                      - heavy_positivevocalization02     - Good times!
+heavy0.wav - Selected 6                        - heavy_award08                    - I am most dangerous man in history of war!
+heavy_.wav - Action Acknowledgement 8          - heavy_positivevocalization05     - Da, this will work!

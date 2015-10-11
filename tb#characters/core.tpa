@@ -1,0 +1,69 @@
+SILENT
+
+COPY ~tb#characters/%soundName%/portraits~ ~portraits~
+
+<<<<<<<< convert_win.bat
+cd tb#characters/%soundName%/sounds
+..\..\oggdec.exe *.ogg
+>>>>>>>>
+
+<<<<<<<< convert_osx.sh
+#!/bin/sh
+
+ogg_files=`cd tb#characters/%soundName%/sounds; ls *.ogg;`
+
+for file in $ogg_files; do
+  echo Converting $file
+  tb#characters/sox tb#characters/%soundName%/sounds/$file tb#characters/%soundName%/sounds/${file%.ogg}.wav
+done
+>>>>>>>>
+
+<<<<<<<< convert_lin.sh
+#!/bin/sh
+oggdec tb#characters/%soundName%/sounds/*.ogg
+>>>>>>>>
+
+ACTION_IF ! FILE_EXISTS ~tb#characters/%soundName%/sounds/%soundName%a.wav~ THEN BEGIN
+	ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~) THEN BEGIN
+	  COPY ~convert_win.bat~ ~tb#characters/convert.bat~
+		EVALUATE_BUFFER
+	  AT_NOW ~tb#characters/convert.bat~
+	END
+	ELSE ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~) THEN BEGIN
+	  COPY ~convert_osx.sh~ ~tb#characters/convert.sh~
+		EVALUATE_BUFFER
+	  AT_NOW ~tb#characters/convert.sh~
+	END
+	ELSE ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~unix~) THEN BEGIN
+	  COPY ~convert_lin.sh~ ~tb#characters/convert.sh~
+		EVALUATE_BUFFER
+	  AT_NOW ~tb#characters/convert.sh~
+	END
+END
+
+ACTION_BASH_FOR ~tb#characters/%soundName%/sounds~ ~^.+\.wav$~ BEGIN
+  MOVE ~%BASH_FOR_FILESPEC%~ ~sounds~
+END
+
+LOAD_TRA ~tb#characters/%soundName%/%soundName%.tra~
+
+APPEND_COL "csound.2da" "$ $ %soundName% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+COPY_EXISTING "csound.2da" "override/csound.2da"
+  COUNT_2DA_COLS nColumns
+  SET nCurrCol = nColumns - 1
+  SET_2DA_ENTRY_LATER ___csound 0 nCurrCol "%soundName%"
+  FOR (j = 0; j < 73; ++j) BEGIN
+	SET_2DA_ENTRY_LATER ___csound j nCurrCol "___%j%___"
+  END
+  SET_2DA_ENTRIES_NOW ___csound nColumns
+  FOR (j = 0; j < 73; ++j) BEGIN
+	SPRINT string (AT j)
+	PATCH_IF "%string%" STRING_EQUAL "" THEN BEGIN
+		REPLACE_TEXTUALLY ~___%j%___~ "*"
+	END ELSE BEGIN
+		REPLACE ~___%j%___~ (AT j)
+	END
+  END
+
+VERBOSE
+	

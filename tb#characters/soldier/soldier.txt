@@ -1,0 +1,40 @@
+This is the table of sound files used by the soldier sound set; it will hopefully be useful to somebody.
+
+in-BG2 file    Sound description                   in-GCF file name                   Transcription
+soldiera.wav - Battle Cry                        - soldier_taunts07                 - If God had wanted you to live, he would not have created ME!
+soldierb.wav - Becoming Leader                   - soldier_autocappedcontrolpoint01 - Now, THAT is what I wanted to see!
+soldierc.wav - Tired                             - soldier_autodejectedtie03        - <tired>Hmm
+soldierd.wav - Bored                             - soldier_jeers03                  - Are you all trying for a Section Eight?
+soldiere.wav - Badly Wounded                     - soldier_jeers07                  - Pain is weakness leaving the body.
+soldierf.wav - Selected 1                        - soldier_positivevocalization03   - Okay.
+soldierg.wav - Selected 2                        - soldier_yes02                    - Yes!
+soldierh.wav - Selected 3                        - soldier_yes04                    - Sir yes Sir!
+soldieri.wav - Action Acknowledgement 1          - soldier_positivevocalization04   - Roger that!
+soldierj.wav - Action Acknowledgement 2          - soldier_autocappedintelligence02 - And that is how you do it, men!
+soldierk.wav - Action Acknowledgement 3          - soldier_battlecry02              - Forward!
+soldierl.wav - Being Hit                         - soldier_painsharp01              - Unf!
+soldierm.wav - Dying                             - soldier_paincrticialdeath03      - Aaargh!
+soldiern.wav - In Forest                         - soldier_specialcompleted04       - Screaming Eagles!
+soldiero.wav - In City                           - soldier_cheers04                 - Don't worry Mister, I'm Gentleman!
+soldierp.wav - In Dungeon                        - soldier_battlecry04              - Last one alive, lock the door!
+soldierq.wav - Daytime                           - soldier_cheers01                 - Today is a good day!
+soldierr.wav - Nighttime                         - soldier_taunts12                 - We have you surrounded, at least from this side!
+soldiers.wav - Action Acknowledgement 4          - soldier_go01                     - Go go go, charge!
+soldiert.wav - Action Acknowledgement 5          - soldier_incoming01               - Incoming!
+soldieru.wav - Action Acknowledgement 6          - soldier_jeers08                  - Down and give me twenty!
+soldierv.wav - Action Acknowledgement 7          - soldier_jeers10                  - If I have to crack some skulls I will.
+soldierw.wav - Reaction to Party Member Death    - soldier_jeers11                  - That was an amazing killing spree. BY THE OTHER TEAM!
+soldierx.wav - Rare Select 1                     - soldier_laughevil01              - 
+soldiery.wav - Rare Select 2                     - soldier_laughevil02              - 
+soldierz.wav - Critical Hit Given                - soldier_specialcompleted02       - Croket!
+soldier1.wav - Critical Miss                     - soldier_negativevocalization02   - Noooo...
+soldier2.wav - Target Immune                     - soldier_needsentry01             - Deploy a sentry HERE!
+soldier3.wav - Inventory Full                    - soldier_helpme03                 - Heeeeelp!
+soldier4.wav - Successfully Picked A Pocket      - soldier_taunts08                 - I am going to climb my way down your throat and tear out your very soul!
+soldier5.wav - Successfully Hid In shadows       - soldier_taunts14                 - Do not look at me! I did not ask you a question!
+soldier6.wav - Spell Disrupted                   - soldier_jeers01                  - Boo.
+soldier7.wav - Set A Trap                        - soldier_taunts03                 - If you know what's good for you, you will run!
+soldier8.wav - Battle Cry 2                      - soldier_taunts10                 - You are all weak! You are all bleeders!
+soldier9.wav - Battle Cry 3                      - soldier_taunts17                 - This is my world! You are not welcome in my world!
+soldier0.wav - Selected 6                        - soldier_positivevocalization02   - Oh yeah.
+soldier_.wav - Action Acknowledgement 8          - soldier_taunts16                 - The last word out of your sorry mouth will be Sir, and it will be loud!
