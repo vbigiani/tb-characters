@@ -1,7 +1,7 @@
 BACKUP ~tb#characters/backup~
 AUTHOR ~the bigg (thebigg@spellholdstudios.net)~
 
-VERSION 999000
+VERSION @999000
 README ~tb#characters/tra/%LANGUAGE%/readme.html~
 
 LANGUAGE ~english~
